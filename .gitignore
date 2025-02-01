@@ -1,0 +1,43 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+env/
+*.venv
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore model and scaler backup files
+*.bak
+*.sav
+
+# Ignore large dataset files (optional)
+*.csv
+*.tsv
+*.json
+*.xlsx
+
+# Ignore any hidden files (starting with .)
+.*
+
+# Allow model and scaler files (keep these in the repo)
+!ann_model.h5
+!scaler.pkl
+
+# Ignore Jupyter notebook metadata
+.ipynb_checkpoints/
+
+# Optionally, ignore Jupyter Notebook outputs
+# Uncomment the following if you want to ignore notebook output files
+# *.ipynb_checkpoints/
